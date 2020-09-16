@@ -21,7 +21,7 @@ body {
     width:115px;
 }
 
-#portfolioPhoto {
+.portfolioPhoto {
     margin:30px;
 
 }
@@ -40,7 +40,7 @@ body {
     .container {
         width: 85%;
     }
-    #portfolioPhoto {
+    .portfolioPhoto {
         width: 80%
     }
 }
@@ -50,7 +50,7 @@ body {
         padding:10px;
         width: 85%;
     }
-    #portfolioPhoto {
+    .portfolioPhoto {
         width: 80%
     }
 }
@@ -60,7 +60,7 @@ body {
         padding:10px;
         width: 85%;
     }
-    #portfolioPhoto {
+    .portfolioPhoto {
         width: 80%
     }
 }
