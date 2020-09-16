@@ -3,6 +3,30 @@ body {
     background-repeat: repeat;
 }
 
+#myName {
+    background-color: #4aaaa5 ;
+}
+
+#pageHeader {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:"strong";
+    font-color:#4aaaa5;
+}
+
+#myPhoto {
+    height:200px;
+    width:115px;
+}
+
+#portfolioPhoto {
+    margin:35px;
+
+    height:350px;
+    width:350px;
+
+}
+
 #footGray {
     background-color: #666666;
 }
+
