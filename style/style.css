@@ -3,6 +3,7 @@ body {
     background-repeat: repeat;
 }
 
+/* this id is to format the name in the nav bar on all pages */
 #myName {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -10,32 +11,37 @@ body {
     background-color: #4aaaa5 ;
 }
 
+/* this ID is to override the h1 bootstrap styling on all pages*/
 #pageHeader {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color:#4aaaa5;
 }
 
+/* specific sizing for portfolio picture on About page */
 #myPhoto {
     height:200px;
     width:115px;
 }
 
+/* styling for photoes on Portfolio page */
 .portfolioPhoto {
     margin:30px;
 
 }
 
+/* styling for button on Contact page */
 #submit {
     background-color:#4aaaa5;
     color:white;
 }
 
+/* this ID overrides the Bootstrap footer styling on all pages */
 #footGray {
     background-color: #666666;
 }
 
-
+/* the media queries below are to designate specific breakpoints for mobile responsiveness */
 @media screen and (max-width:992px) {
     .container {
         width: 85%;
