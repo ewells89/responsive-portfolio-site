@@ -4,13 +4,16 @@ body {
 }
 
 #myName {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
     background-color: #4aaaa5 ;
 }
 
 #pageHeader {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight:"strong";
-    font-color:#4aaaa5;
+    font-weight: bold;
+    color:#4aaaa5;
 }
 
 #myPhoto {
@@ -23,7 +26,11 @@ body {
 
     height:350px;
     width:350px;
+}
 
+#submit {
+    background-color:#4aaaa5;
+    color:white;
 }
 
 #footGray {
