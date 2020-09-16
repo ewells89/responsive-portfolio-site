@@ -22,10 +22,8 @@ body {
 }
 
 #portfolioPhoto {
-    margin:35px;
+    margin:30px;
 
-    height:350px;
-    width:350px;
 }
 
 #submit {
@@ -37,3 +35,32 @@ body {
     background-color: #666666;
 }
 
+
+@media screen and (max-width:992px) {
+    .container {
+        width: 85%;
+    }
+    #portfolioPhoto {
+        width: 80%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding:10px;
+        width: 85%;
+    }
+    #portfolioPhoto {
+        width: 80%
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        padding:10px;
+        width: 85%;
+    }
+    #portfolioPhoto {
+        width: 80%
+    }
+}
